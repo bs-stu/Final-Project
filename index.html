@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>陳庭瑜的個人網站 | 期末專案成果</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        body { padding-top: 56px; font-family: 'Helvetica Neue', Arial, "微軟正黑體", sans-serif; }
+        .hero-section { background: #f8f9fa; padding: 70px 0; }
+        .skill-badge { margin: 5px; padding: 8px 12px; font-size: 0.9rem; }
+        .img-placeholder { background: #e9ecef; min-height: 200px; object-fit: cover; }
+        .card { transition: transform 0.2s; }
+        .card:hover { transform: translateY(-5px); }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">庭瑜的個人網站</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">關於我</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">經驗技能</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">專案作品</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#articles">專業見解</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#awards">獲獎榮譽</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="about" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center mb-4 mb-md-0">
+                    <img src="images/my-avatar.jpg" onerror="this.src='images/my-avatar.png'" alt="陳庭瑜的個人照" class="img-fluid rounded-circle shadow-lg" style="width: 220px; height: 220px; object-fit: cover;">
+                </div>
+                <div class="col-md-8">
+                    <h1 class="display-4 fw-bold text-dark">陳庭瑜</h1>
+                    <p class="lead text-primary fw-semibold">國立聯合大學 資訊管理學系</p>
+                    <hr>
+                    <p class="fs-5 text-secondary">
+                        您好！我是陳庭瑜，目前就讀於國立聯合大學資訊管理學系。我熱衷於**資料科學**、**資料庫管理系統**以及**網頁前端開發**。在學期間，我深入研究圖形演算法（如 DFS/BFS）與關聯式資料庫結構，並擅長利用 Python 編寫資料分析與系統預測工具。
+                    </p>
+                    <p class="text-secondary">
+                        我的目標是將資管的系統分析邏輯與開發技術相結合，未來成為一名能夠解決企業實質數據與系統痛點的軟體工程師。
+                    </p>
+                    <p><strong>個人興趣：</strong> 網頁前端實作、Python 機器學習預測、打羽球、關注 NBA 球隊戰術與數據統計分析。</p>
+                    
+                    <h3 class="mt-4 h4 text-dark fw-bold"><i class="bi bi-book-half me-2 text-info"></i>教育背景</h3>
+                    <ul class="text-secondary">
+                        <li><strong>國立聯合大學 - 資訊管理學系</strong> (2024 年入學 - 在學中)</li>
+                        <li><strong>核心修習課程：</strong> 資料庫管理系統（特長：EER Model 轉換與正規化）、網頁前端開發（RWD 響應式網頁設計）、程式設計（Python 應用開發）、系統分析與設計。</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold position-relative">經驗與專業技能</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm p-4 border-0 bg-light">
+                        <h4 class="card-title text-primary fw-bold mb-4"><i class="bi bi-briefcase-fill me-2"></i>實務與課外經歷</h4>
+                        <ul class="list-unstyled">
+                            <li class="mb-4">
+                                <h5 class="fw-bold text-dark"><i class="bi bi-dot text-primary"></i> 教育部數位學伴計畫 - 大學伴導師</h5>
+                                <p class="text-muted small mb-1"><i class="bi bi-calendar3 me-1"></i> 2024.10 - 2025.01</p>
+                                <p class="text-secondary">負責偏鄉國小（石潭國小、南湖國小）學童的遠距線上資訊與學科輔導。期間獨立規劃互動式數位教材，磨練出跨領域的溝通能力、無比的耐心與專案執行力。</p>
+                            </li>
+                            <li>
+                                <h5 class="fw-bold text-dark"><i class="bi bi-dot text-primary"></i> 聯大資管系羽毛球隊 - 球隊成員</h5>
+                                <p class="text-muted small mb-1"><i class="bi bi-calendar3 me-1"></i> 2025 - 至今</p>
+                                <p class="text-secondary">參與 115 資管系羽的日常高強度訓練與球隊行政庶務。從中培養了極佳的抗壓性、體能續航力，以及高度的團隊協同作戰與榮譽感。</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm p-4 border-0 bg-light">
+                        <h4 class="card-title text-success fw-bold mb-4"><i class="bi bi-code-slash me-2"></i>專業核心技能</h4>
+                        <div class="mb-4">
+                            <span class="badge bg-dark skill-badge">Python (Pandas / Tkinter / Scikit-Learn)</span>
+                            <span class="badge bg-primary skill-badge">HTML5 / CSS3 / Bootstrap 5</span>
+                            <span class="badge bg-info text-dark skill-badge">SQL (MySQL / 關聯式資料庫)</span>
+                            <span class="badge bg-secondary skill-badge">Git & GitHub Classroom</span>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label class="form-label fw-semibold text-dark">網頁前端開發 (HTML / CSS / RWD 佈局)</label>
+                            <div class="progress" style="height: 18px;">
+                                <div class="progress-bar bg-success fw-bold" role="progressbar" style="width: 85%;">85%</div>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-semibold text-dark">資料庫管理與邏輯設計 (EER 表轉換 / 正規化)</label>
+                            <div class="progress" style="height: 18px;">
+                                <div class="progress-bar bg-info text-dark fw-bold" role="progressbar" style="width: 80%;">80%</div>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label fw-semibold text-dark">程式語言與統計分析 (Python 預測工具開發)</label>
+                            <div class="progress" style="height: 18px;">
+                                <div class="progress-bar bg-warning text-dark fw-bold" role="progressbar" style="width: 75%;">75%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">專案作品櫥窗展示</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="images/project1.jpg" onerror="this.src='images/project1.png'" class="card-img-top img-placeholder" alt="電商網頁前端設計作品">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold text-dark">響應式電商網頁前端設計</h5>
+                            <p class="card-text text-muted small flex-grow-1">使用 HTML5、CSS3 與 Bootstrap 5 框架，自主開發出一款符合 RWD 響應式設計的電商網頁介面。完美支援手機、平板與桌機瀏覽，並整合美觀的網頁互動選單。</p>
+                            <div class="mt-3">
+                                <span class="badge bg-secondary mb-2">Bootstrap 5</span>
+                                <a href="https://bs-stu.github.io/Final-Project/" class="btn btn-outline-primary btn-sm w-100" target="_blank"><i class="bi bi-link-45deg"></i> 實際 Demo 連結</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="images/project2.jpg" onerror="this.src='images/project2.png'" class="card-img-top img-placeholder" alt="資料庫模型設計成果">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold text-dark">Python NBA 戰績數據預考量分析系統</h5>
+                            <p class="card-text text-muted small flex-grow-1">結合 `nba_api` 資料庫與機器學習核心，以 Python 開發包含 Tkinter 互動介面的預測工具。後端更結合資料庫關聯模型設計，透過正規化（1NF~3NF）優化大量球員與賽事數據的查詢效率。</p>
+                            <div class="mt-3">
+                                <span class="badge bg-dark me-1">Python</span><span class="badge bg-dark">MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm border-0">
+                        <img src="images/activity1.jpg" onerror="this.src='images/activity1.png'" class="card-img-top img-placeholder" alt="球隊與活動照片">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title fw-bold text-dark">課外活動與團隊合作紀錄</h5>
+                            <p class="card-text text-muted small flex-grow-1">完整記錄參與聯合大學校園生活、資管系羽球隊日常出賽以及黑客松挑戰的精彩圖文。透過跨團隊溝通協作與密集專案討論，展現高強度的跨領域適應能力與人格特質。</p>
+                            <div class="mt-3">
+                                <span class="badge bg-info text-dark">團隊協作</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="articles" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">專業見解 (Articles)</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="card shadow-sm border-0 bg-light overflow-hidden">
+                        <div class="row g-0 align-items-center">
+                            <div class="col-md-4 p-3 text-center">
+                                <img src="images/article1.jpg" onerror="this.src='images/article1.png'" class="img-fluid rounded shadow-sm img-placeholder" alt="生成式AI與資管開發趨勢圖" style="max-height: 250px; width: 100%;">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h4 class="card-title fw-bold text-dark">淺談生成式 AI 對傳統資管系統開發的衝擊與機會</h4>
+                                    <p class="text-muted small mb-3"><i class="bi bi-clock me-1"></i> 發表日期：2026 年 06 月</p>
+                                    <p class="card-text text-secondary mb-0" style="text-align: justify; line-height: 1.6;">
+                                        隨著大型語言模型（LLM）與 Low-Code/No-Code 工具的高速普及，傳統資管系統（如 ERP、CRM）的開發生命週期迎來了巨大轉變。未來的資管人才核心價值，不再只是高重複性的代碼撰寫，而是轉變為**「如何與 AI 協同工作」**。
+                                        我們需要具備更精準的系統分析（SA）能力，善用 Prompt 自動生成高度優化的 SQL 查詢腳本與前端響應式元件。掌握程式碼防錯機制與雲端系統架構邏輯，將是新一代聯大資管學生脫穎而出的致命武器。
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="awards" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">獲獎與榮譽 (Awards)</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card border-0 shadow-sm">
+                        <ul class="list-group list-group-flush rounded">
+                            <li class="list-group-item py-3"><i class="bi bi-award-fill text-primary fs-4 me-3"></i> <strong>Microsoft Certified: Azure AI Fundamentals (AI-900)</strong> 專業國際認證合格</li>
+                            <li class="list-group-item py-3"><i class="bi bi-trophy-fill text-warning fs-4 me-3"></i> <strong>2025 聯合大學資管系內專案競賽</strong> - 最佳核心技術獎</li>
+                            <li class="list-group-item py-3"><i class="bi bi-check-circle-fill text-success fs-4 me-3"></i> <strong>2024 學年度第 1 學期</strong> 班級學術優秀表現與核心獎學金</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <div class="container">
+            <p class="mb-1">&copy; 2026 陳庭瑜 (Ting-Yu Chen). All Rights Reserved.</p>
+            <small class="text-muted">國立聯合大學 資訊管理學系 | 前端網頁設計期末專案成果展示</small>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
